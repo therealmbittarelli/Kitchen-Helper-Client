@@ -31,7 +31,7 @@
 
   * [Server Side Repo](https://github.com/thinkful-ei-iguana/Delta-Squad-Server)
 
-  * [Live App](https://delta-squad-app.now.sh/)
+  * [Live App](https://kitchen-helper-2020.now.sh/)
 
 
 
