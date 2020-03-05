@@ -1,0 +1,182 @@
+.my-planner-header {
+  color: #141514;
+  text-align: center;
+  text-decoration: none;
+  font-family: "cookiesregular";
+  font-size: xx-large;
+  padding: 2%;
+}
+
+.mealplan-title {
+  color: #141514;
+  text-decoration: none;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  font-size: x-large;
+}
+.planned-date {
+  text-align: center;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.prep-time {
+  text-align: center;
+  margin-right: 15px;
+}
+.mealplan-section {
+margin-left: auto;
+margin-right: auto;
+width: 280px;
+background-color: #B6D084;
+padding: 5px;
+margin-top: 10px;
+padding-bottom: 15px;
+border: black solid 1px;
+margin-bottom: 2px;
+border-radius: 10%;
+box-shadow: 5px 5px 5px #2F7604;
+}
+
+.bigButton {
+  width: 200px;
+  height: 100px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.planner-route-container {
+  align-content: center;
+  text-align: center;
+}
+
+.Add-Meal-Plan-Button {
+  font-family: "cookiesregular";
+  height: 100px;
+  width: 290px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.edit-mealplan-button {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 45px;
+  padding: 4px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #ffcb32;
+  color: #141514;
+}
+
+#planner-text {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#add-plan-error {
+  color: #ffcb32;
+  font-size: 25px;
+  font-weight: bold;
+}
+#modal-planner {
+  display:flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#modal-content-planner, .dropDown {
+  border: 2px solid black;
+  border-radius: 10%;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  background-color: #2F7604;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.dropDown {
+ background-color: #ffcb32;
+ color: black;
+ font-weight:normal;
+}
+
+.plannerLabel {
+  font-size: 20px;
+}
+
+#meal-date-label {
+  margin-top: 10px;
+}
+
+#drop-down {
+  margin-bottom: 10px;
+}
+
+.plannerInfo {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: black 1px solid;
+  margin: 10px;
+  min-height: 60px;
+  border-radius: 10%;
+  background-color: #B6D084;
+  color: black;
+}
+
+.empty-fields-error-message-green-bg {
+  text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcb32;
+    padding: 10px;
+}
+
+#edit-plan-text {
+  padding: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 375px) {
+.mealplan-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: #B6D084;
+  padding: 5px;
+  padding-bottom: 15px;
+  border: black solid 1px;
+  margin-bottom: 2px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px #2F7604;
+  }
+  /* #modal-content-planner, .dropDown {
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    background-color: #2F7604;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  } */
+}

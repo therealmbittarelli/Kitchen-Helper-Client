@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="individual-mealplan-view"
+>
+  <section
+    id="original-mealplan-data"
+  >
+    <h2
+      id="update-header"
+    >
+      Edit MealPlan
+    </h2>
+    <p
+      id="edit-plan-text"
+    >
+      Click below to update your meal plan. Edit any or all fields; untouched fields in the edit window will retain their original values.
+    </p>
+    <h3
+      className="mealplanInfo"
+    >
+      <p
+        className="boldLabel"
+      >
+        Title:
+      </p>
+       
+      <br />
+      <p
+        className="boldLabel"
+      >
+        Planned date:
+      </p>
+       
+      <br />
+      <p
+        className="boldLabel"
+      >
+        Time to make:
+      </p>
+       
+       minutes
+      <br />
+      <p
+        className="boldLabel"
+      >
+        Ingredients required:
+      </p>
+    </h3>
+  </section>
+  <button
+    className="smallButton"
+    onClick={[Function]}
+    type="submit"
+  >
+    Update
+  </button>
+  <button
+    className="smallButton"
+    onClick={[Function]}
+    type="submit"
+  >
+    Delete
+  </button>
+  <div />
+  <button
+    className="smallButton"
+    onClick={[Function]}
+    type="submit"
+  >
+    Go back
+  </button>
+</div>
+`;

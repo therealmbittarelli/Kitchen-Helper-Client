@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "kitchen-helper-2020",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}

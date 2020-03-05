@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="Creation"
+>
+  <header
+    className="Creation-Header"
+    id="add-recipe-header"
+  >
+    New Recipe
+  </header>
+  <form
+    className="Creation-Form"
+    onSubmit={[Function]}
+  >
+    <label
+      className="field a-field a-field_a2"
+    >
+      Title
+      <input
+        className="field__input a-field__input"
+        name="title"
+        placeholder="Title"
+        required={true}
+      />
+      <span
+        className="a-field__label-wrap"
+      >
+        <span
+          className="a-field__label"
+        />
+      </span>
+    </label>
+    <label
+      className="field a-field a-field_a2"
+    >
+      Ingredients 
+      <div
+        className="inputParam"
+      >
+        (separate by commas)
+      </div>
+      <input
+        className="field__input a-field__input"
+        maxLength="60"
+        name="recipe_ingredients"
+        placeholder="Recipe ingredients"
+        required={true}
+        type="text"
+      />
+      <span
+        className="a-field__label-wrap"
+      >
+        <span
+          className="a-field__label"
+        />
+      </span>
+    </label>
+    <label
+      className="field a-field a-field_a2"
+    >
+      Instructions 
+      <div
+        className="inputParam"
+      >
+        (separate by period)
+      </div>
+       
+      <textarea
+        className="field__input a-field__input instructionsField"
+        maxLength="300"
+        name="recipe_description"
+        placeholder="Recipe description"
+        required={true}
+        type="text"
+      />
+      <span
+        className="a-field__label-wrap"
+      >
+        <span
+          className="a-field__label"
+        />
+      </span>
+    </label>
+    <label
+      className="field a-field a-field_a2"
+    >
+      Total Prep Time 
+      <div
+        className="inputParam"
+      >
+        (in minutes)
+      </div>
+      <input
+        className="field__input a-field__input"
+        min="1"
+        name="time_to_make"
+        placeholder="Time to make the recipe"
+        required={true}
+        type="number"
+      />
+      <span
+        className="a-field__label-wrap"
+      >
+        <span
+          className="a-field__label"
+        />
+      </span>
+    </label>
+    <div
+      className="btn-row"
+    >
+      <div>
+        <button
+          className="medButton"
+          type="submit"
+        >
+          Create recipe
+        </button>
+      </div>
+      <a
+        href="/recipes"
+        onClick={[Function]}
+      >
+        <button
+          className="medButton"
+        >
+          Cancel
+        </button>
+      </a>
+    </div>
+  </form>
+</div>
+`;

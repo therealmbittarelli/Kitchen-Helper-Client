@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+Array [
+  <div>
+    <button
+      className="medButton"
+      onClick={[Function]}
+    >
+      Add an ingredient
+    </button>
+  </div>,
+  <div />,
+]
+`;

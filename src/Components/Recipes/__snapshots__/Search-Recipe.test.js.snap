@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="searchRecipe"
+>
+  <p
+    id="larger-search-text"
+  >
+    Search our collection of recipes!
+  </p>
+  <p
+    id="recipe-search-text"
+  >
+    For best results, please use whole words as search terms. 
+    <br />
+    Feel free to include more than one search term at a time.
+  </p>
+  <br />
+  <form
+    className="searchArea"
+    onSubmit={[Function]}
+  >
+    <input
+      id="searchBar"
+      onChange={[Function]}
+      placeholder="Search by ingredients"
+      type="text"
+    />
+    <button
+      id="searchButton"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+  <section
+    className="recipeResults"
+  />
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+Array [
+  <div
+    className="modal-container"
+  >
+    <div
+      className="ingredientInfoContainer"
+    >
+      <button
+        className="edit-ingredient-button smallButton"
+        onClick={[Function]}
+      >
+        View/Edit
+      </button>
+    </div>
+  </div>,
+  <div />,
+]
+`;

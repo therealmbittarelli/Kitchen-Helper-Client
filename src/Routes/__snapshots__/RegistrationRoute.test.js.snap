@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="register"
+>
+  <header
+    className="Creation-Header"
+  />
+  <form
+    className="register-form"
+    onSubmit={[Function]}
+  >
+    <div
+      role="alert"
+    />
+    <label
+      className="field a-field a-field_a2"
+    >
+      Display name
+    </label>
+    <input
+      className="field__input a-field__input"
+      name="first_name"
+      placeholder="Name"
+      required={true}
+    />
+    <br />
+    <label
+      className="field a-field a-field_a2"
+    >
+      Username
+    </label>
+    <input
+      className="field__input a-field__input"
+      name="user_name"
+      placeholder="Username"
+      required={true}
+    />
+    <br />
+    <label
+      className="field a-field a-field_a2"
+    >
+      Password
+    </label>
+    <input
+      className="password-fields"
+      name="password"
+      placeholder="Password"
+      required={true}
+      type="password"
+    />
+    <div
+      className="btn-row"
+    >
+      <button
+        className="medButton"
+      >
+        Create
+      </button>
+      <br />
+      <a
+        href="/Login"
+        onClick={[Function]}
+      >
+        <button
+          className="medButton"
+        >
+          Already have an account?
+        </button>
+      </a>
+    </div>
+  </form>
+</div>
+`;
