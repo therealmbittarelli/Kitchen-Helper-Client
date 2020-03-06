@@ -69,7 +69,7 @@ class Header extends Component {
     return (
       <header className="heading">
         <div className="landing-image">
-          <a href="http://localhost:3000/">
+          <a href="https://kitchen-helper-2020.now.sh/">
             <img src={LandingLogo} alt="Landing Logo" className="landinglogo" />
           </a>
           <Link className="login-page-link" to="/">
